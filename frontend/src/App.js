@@ -96,7 +96,7 @@ function App() {
                           <p className="card-text fs-5 fw-bold text-dark px-2 bg-warning">{item.imagetitle}</p>
                           <div className="deletebtn">
                             <button className="btn btn-danger rounded-5" onClick={() => deletehandle(item.imagetitle)}>
-                              <i className="fa-solid fa-trash"></i>
+                              <i className="fas fa-trash"></i>
                             </button>
                           </div>
                         </div>
