@@ -6,14 +6,10 @@ import reportWebVitals from './reportWebVitals';
 // import 'bootstrap/dist/js/bootstrap.bundle.min.js'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-toastify/dist/ReactToastify.css';
-import { Authprovider } from './context/auth';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Authprovider>
     <App />
-  </Authprovider>
-
 
 );
 
